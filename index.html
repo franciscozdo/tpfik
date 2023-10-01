@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TPFiK -- test</title>
+    <title>TPFiK</title>
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono">
-    <script src="https://kit.fontawesome.com/383fabb748.js" crossorigin="anonymous"></script>
   <style>
-    body {
-      font-family: "Roboto Mono";
-      text-align: center;
-      background-color: beige;
-    }
-    .header {
-      font-size: 10em;
-      margin: 0em;
-    }
-    .text {
-      font-size: 2em;
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-    }
-    .link {
-      border-radius: 1em;
-      padding: 0.3em;
-      padding-left: 0.6em;
-      padding-right: 0.6em;
-      color: white;
-      background-color: #8b4513;
-      text-decoration: none;
-      text-align: left;
-      font-size: 2em;
-      display: inline-block;
-      width: 10em;
-    }
-    .link:hover {
-      background-color: #9b5523;
-    }
-    .link:active {
-      color: lightgrey;
-    }
-    .icon {
-      width: 1.5em;
-      text-align: center;
-    }
-    .list {
-      margin: 2em;
-    }
   </style>
   </head>
   <body>
-    <h1 class='header'>TPFiK</h1>
-    <p class='text'>
-      Here will go all the informations about our project.
-    </p>
-    <div class='list'>
-      <a href="https://goo.gl/maps/5C3YMPEbmtpfZh1z8" class="link">
-        <i class="fa-solid fa-cross icon"></i>
-        Church
-      </a>
+    <div class='header'>
+      <h1>Kasia i Franek</h1>
+      <h2>-- 27 IV 2024 --</h2>
     </div>
-    <div class='list'>
-      <a href="https://goo.gl/maps/QQEkpXZoSYFi8pMp9" class="link">
-        <i class="fa-solid fa-champagne-glasses icon"></i>
-        Restaurant
-      </a>
+
+    <div class='info-box'>
+      <h1>Nasz ślub</h1>
+      <p>15:00</p>
+      <p>Kościół pw Świętej Trójcy</p>
+      <div class='additional-info'>
+        <p><b>Adres:</b> ul. Krzycka 42, Wrocław</p>
+      </div>
+      <div class='info-box-links'>
+        <div class='info-box-link'>
+          <a href="https://goo.gl/maps/5C3YMPEbmtpfZh1z8" class="link">
+            Mapa
+          </a>
+        </div>
+        <div class='info-box-link'>
+          <div class="additional-info-button">Więcej informacji</div>
+        </div>
+      </div>
     </div>
+
+    <div class='info-box'>
+      <h1>Nasze wesele</h1>
+      <p>Po Mszy Świętej</p>
+      <p>Restauracja Zielona Oliwka</p>
+      <div class='additional-info'>
+        <p><b>Adres:</b> ul. Rzeczna 58, Kiełczów</p>
+      </div>
+      <div class='info-box-links'>
+        <div class='info-box-link'>
+          <a href="https://goo.gl/maps/QQEkpXZoSYFi8pMp9" class="link">
+            Mapa
+          </a>
+        </div>
+        <div class='info-box-link'>
+          <div class="additional-info-button">Więcej informacji</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+    var coll = document.getElementsByClassName("additional-info-button");
+    function toggle(thiss, content) {
+      if (content.style.display === "block") {
+        content.style.display = "none";
+        thiss.innerHTML = "Więcej informacji";
+      } else {
+        content.style.display = "block";
+        thiss.innerHTML = "Mniej informacji";
+      }
+    }
+    coll[0].addEventListener("click", function() {
+      var content = document.getElementsByClassName("additional-info")[0];
+      toggle(this, content)
+    });
+    coll[1].addEventListener("click", function() {
+      var content = document.getElementsByClassName("additional-info")[1];
+      toggle(this, content)
+    });
+    </script>
   </body>
 </html>

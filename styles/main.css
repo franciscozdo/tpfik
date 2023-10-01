@@ -1,0 +1,110 @@
+body {
+  font-family: "Roboto Mono";
+  text-align: left;
+  background-color: beige;
+  margin: 5%;
+}
+
+.header {
+  margin: 5%;
+  text-align: center;
+}
+.header > h1 {
+  font-size: 5em;
+  margin: 0;
+}
+.header > h2 {
+  font-size: 2em;
+  color: grey;
+  margin: 0;
+}
+
+p {
+  font-size: 2em;
+}
+
+.info-box {
+  background-color: #dcdcc6;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+.info-box > h1 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.info-box > p {
+  padding-left: 1em;
+  margin: 0;
+}
+
+.info-box-links {
+  padding-left: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+.info-box-link {
+  font-size: 1.5em;
+  color: #33332e;
+  float: left;
+  padding: 1em;
+  margin: 0.3em;
+  background-color: #abab9a;
+  text-decoration: none;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+
+.additional-info {
+  display: none;
+  overflow: hidden;
+  padding-left: 3em;
+  margin: 0.5em;
+}
+
+.additional-info > p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.additional-info-button {
+  cursor: pointer;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #33332e;
+}
+
+/* old styles */
+/*
+
+.link:hover {
+  background-color: #9b5523;
+}
+
+.link:active {
+  color: lightgrey;
+}
+
+.icon {
+  width: 1.5em;
+  text-align: center;
+}
+
+.list {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.list > p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+*/
