@@ -15,45 +15,49 @@
     </div>
 
     <div class='info-box'>
-      <h1> <img align="left" src="images/rings.png" width="60"> &nbsp Ślub </h1>
-      <p>15:00</p>
-      <p>Kościół pw Świętej Trójcy</p>
-      <div class='additional-info'>
-        <p><b>Adres:</b> ul. Krzycka 42, Wrocław</p>
-      </div>
+      <h1><img align="left" src="images/rings.png" width="60">
+        &nbsp Ślub --  Kościół pw Świętej Trójcy
+      </h1>
+      <p><b>Adres:</b> ul. Krzycka 42, Wrocław</p>
+      <p><b>Godzina:</b> 15:00</p>
       <div class='info-box-links'>
         <div class='info-box-link'>
           <a href="https://goo.gl/maps/5C3YMPEbmtpfZh1z8" class="link">
             Mapa
           </a>
         </div>
-        <div class='info-box-link'>
-          <div class="additional-info-button">Więcej informacji</div>
-        </div>
       </div>
     </div>
 
     <div class='info-box'>
-      <h1> <img align="left" src="images/partyparty.png" width="60"> &nbsp Wesele </h1>
-      <br>
-      <p>Sala: Zielona Osada</p>
-      <br>
-      <p>W razie jakichkolwiek pytań związanych z dojazdem śmiało kontaktujcie się z nami.</p>
-      <br>
-      <p>Jeśli jedziecie na sale autem, macie jakieś wolne miesca i możecie przygarnąć kogoś kto nie ma opcji dojazdu,
-          będziemy wdzięczni jak dacie nam takie info.</p>
-      <br>
-      <div class='additional-info'>
-        <p><b>Adres:</b> ul. Rzeczna 58, Kiełczów</p>
-      </div>
+      <h1><img align="left" src="images/partyparty.png" width="60">
+        &nbsp Wesele -- Zielona Osada
+      </h1>
+      <p><b>Adres:</b> ul. Rzeczna 58, Kiełczów</p>
+
+      <h3>Dojazd</h3>
+      <ul>
+       <li>
+         W razie jakichkolwiek pytań związanych z dojazdem śmiało kontaktujcie
+         się z nami.
+       </li>
+       <li>
+         Jeśli jedziecie na sale autem, macie jakieś wolne miesca i możecie
+         przygarnąć kogoś kto nie ma opcji dojazdu, będziemy wdzięczni jak
+         dacie nam takie info.
+       </li>
+      </ul> 
+      <h3>Diety</h3>
+      <ul>
+       <li>
+         Jeśli masz jakąś dietę (wegetariańską, bezglutenową itp) to prosimy o info.
+       </li>
+      </ul>
       <div class='info-box-links'>
         <div class='info-box-link'>
           <a href="https://goo.gl/maps/QQEkpXZoSYFi8pMp9" class="link">
             Mapa
           </a>
-        </div>
-        <div class='info-box-link'>
-          <div class="additional-info-button">Więcej informacji</div>
         </div>
       </div>
     </div>
@@ -77,25 +81,21 @@
       </div>
     </div>
 
-    <script>
-    var coll = document.getElementsByClassName("additional-info-button");
-    function toggle(thiss, content) {
-      if (content.style.display === "block") {
-        content.style.display = "none";
-        thiss.innerHTML = "Więcej informacji";
-      } else {
-        content.style.display = "block";
-        thiss.innerHTML = "Mniej informacji";
-      }
-    }
-    coll[0].addEventListener("click", function() {
-      var content = document.getElementsByClassName("additional-info")[0];
-      toggle(this, content)
-    });
-    coll[1].addEventListener("click", function() {
-      var content = document.getElementsByClassName("additional-info")[1];
-      toggle(this, content)
-    });
-    </script>
+    <div class='info-box'>
+      <h1><img align="left" src="images/gift.png" width="60">
+        &nbsp Prezenty, kwiaty itp.
+      </h1>
+      <ul> 
+       <li>
+         Prosimy nie dawajcie nam kwiatów<br>
+         (nie jesteśmy fanami, no i zdarza się, że przy nich kichamy)
+       </li>
+       <li>
+        W zamian jakieś owocowe winko, czy kawusia (taka do alternatyw)
+        będzie jak znalazł.
+       </li>
+      </ul> 
+    </div>
+
   </body>
 </html>
