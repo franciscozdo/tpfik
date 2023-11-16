@@ -42,14 +42,16 @@ body {
   background-color: #d1d1c6;
   margin-top: 1em;
   margin-bottom: 1em;
-  border-radius: 0.5em;
   padding: 1em;
   opacity: 0.90;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
 .info-box > h1 {
   margin-top: 0;
   margin-bottom: 0.5em;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
   font-size: 3.7vw;
   display: flex; /* Make parent a flex-container */
   align-items: center; /* Centers child vertically */
@@ -104,7 +106,7 @@ body {
   padding: 0.2em;
   padding-left: 1em;
   padding-right: 1em;
-  border-radius: 0.2em;
+  border-radius: 0.1em;
   display: block;
 }
 
@@ -124,6 +126,5 @@ a:link, a:visited {
   margin-bottom: 5%;
   margin-top: 5%;
   width: 95%;
-  border-radius: 1em;
-  box-shadow: 0px 5px 20px 5px #ddd;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.4);
 }
