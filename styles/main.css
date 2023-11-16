@@ -50,7 +50,7 @@ body {
 .info-box > h1 {
   margin-top: 0;
   margin-bottom: 0.5em;
-  font-size: 3vw;
+  font-size: 3.7vw;
   display: flex; /* Make parent a flex-container */
   align-items: center; /* Centers child vertically */
 }
@@ -95,7 +95,7 @@ body {
   margin-bottom: 0.3em;
 }
 .info-box-link {
-  font-size: 2vw;
+  font-size: 4vw;
   color: #000000;
   float: left;
   margin: 0.3em;
