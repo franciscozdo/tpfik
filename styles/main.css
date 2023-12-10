@@ -4,8 +4,20 @@ body {
   margin: 0;
   background: url("../images/background.jpg" ) no-repeat fixed;
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% 10%;
   /* background-color: #f5f5dc; */
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-family: "Roboto Mono";
+    text-align: left;
+    margin: 0;
+    background: url("../images/background.jpg" ) no-repeat fixed;
+    background-size: cover;
+    background-position: 50%;
+    /* background-color: #f5f5dc; */
+  }
 }
 
 .content {
