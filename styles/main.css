@@ -2,9 +2,8 @@ body {
   font-family: "Roboto Mono";
   text-align: left;
   margin: 0;
-  background: url("../images/back3.jpg" ) no-repeat fixed;
-  background-size: 150%;
-  background-position: 15% 18%;
+  background: url("../images/background.jpg" ) no-repeat fixed;
+  background-position: 50%;
   /* background-color: #f5f5dc; */
 }
 
@@ -16,7 +15,7 @@ body {
   margin: 5%;
   padding: 5%;
   padding-top: 6em;
-  padding-bottom: 20em;
+  padding-bottom: 12em;
   text-align: center;
   /* background-image: url("../images/background.jpg" ); */
   /* background-position: 50% 40%; */
